@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\university\\Tweb\\WebProj2\\WebProj2\\WebProj2.csproj": {}
+    "C:\\University\\TWeb\\WebProj2\\WebProj2\\WebProj2.csproj": {}
   },
   "projects": {
-    "C:\\university\\Tweb\\WebProj2\\WebProj2\\WebProj2.csproj": {
+    "C:\\University\\TWeb\\WebProj2\\WebProj2\\WebProj2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\university\\Tweb\\WebProj2\\WebProj2\\WebProj2.csproj",
+        "projectUniqueName": "C:\\University\\TWeb\\WebProj2\\WebProj2\\WebProj2.csproj",
         "projectName": "WebProj2",
-        "projectPath": "C:\\university\\Tweb\\WebProj2\\WebProj2\\WebProj2.csproj",
+        "projectPath": "C:\\University\\TWeb\\WebProj2\\WebProj2\\WebProj2.csproj",
         "packagesPath": "C:\\Users\\Young\\.nuget\\packages\\",
-        "outputPath": "C:\\university\\Tweb\\WebProj2\\WebProj2\\obj\\",
+        "outputPath": "C:\\University\\TWeb\\WebProj2\\WebProj2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,7 +47,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.12, )"
             },
@@ -56,6 +68,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
